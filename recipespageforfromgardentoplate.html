@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recipes Page For From Garden To Plate</title>
+<meta charset="UTF-8">
+<style>
+body { 
+    background-image: url("garden-greens.jpg");
+    background-color: #cfceca;  
+    position: relative; /* Needed for positioning the pseudo-element */
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.3); /* White overlay with 30% opacity */
+}
+h1 {
+    font-size: 16px; 
+    color: #2F5848;
+    position: absolute; 
+    top: -1.2em; 
+    text-align: center; 
+    right: 47em; 
+}
+/*footer {
+    background-color: #c1c439; 
+    display: flex; /* added style */
+    /*justify-content: space-around; /* added style */
+    /*width: 24px; 
+    height: 33px; 
+}*/
+.about-1, .signup-1, .recipes-1, .contact-1, .privacy-policy-1 {
+    display: flex;
+    color: #5c4121; 
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 24px;
+    bottom: 0;
+    width: 100%; 
+    left: 0; 
+    background-color: #c1c439; 
+    float: right; 
+    right: 50px;
+    justify-content: space-around; 
+}
+.primary-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black; 
+  overflow: hidden;
+  position: fixed; /* Positions the navbar relative to the viewport */
+  bottom: 0; /* Anchors the navbar to the bottom of the viewport */
+  width: 100%; /* Makes the navbar span the full width */
+}
+.primary-menu li {
+    float: right; 
+    display: inline; 
+}
+.primary-menu li a {
+  display: block;
+  color: #F9F6EE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+h1, .recipes {
+    text-align: center; 
+}
+.recipes li a {
+    color: #261D14;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    display: inline-block; /* Displays list items horizontally */
+    margin-right: 15px; /* Adds space between list items */
+}
+.recipes { 
+    /*margin-bottom: 116px;*/ 
+    position: absolute; 
+    top: 0.35em; 
+    text-align: center; 
+    right: 35em; 
+}
+.column {
+    width: 55px;
+    height: 55px;
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+}
+#creamyfeta, #pbscreamyfeta, #spicyroasted, #creamywhippeddip, #ovenroasted, #bakedasparagus, 
+#creamyfeta, #pbscreamyfeta, #creamywhippeddip, #ovenroasted, #bakedasparagus, 
+#lemonparmesanroastedasparagus, #lemongarlicandparmesanasparagus, #creamyedamame,
+#edamamechickensalad, #smartasianstylechickensalad, #pestochicken, #chickenmeatball, #creamychickenorzo, 
+#creamyorzowithtruechicken, #muffins, #strawberryrhubarbmuffins, #staceyrecipe, 
+#tammisrecipeforstrawberryrhubarbmuffins {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+    top: 1.2em; 
+}
+#creamyfeta, #pbscreamyfeta, #spicyroasted, #creamywhippeddip, #ovenroasted, #bakedasparagus, 
+#lemonparmesanroastedasparagus, #lemongarlicandparmesanasparagus, #creamyedamame,
+#edamamechickensalad, #smartasianstylechickensalad, #pestochicken, #chickenmeatball, #creamychickenorzo, 
+#creamyorzowithtruechicken, #muffins, #strawberryrhubarbmuffins, #staceyrecipe, 
+#tammisrecipeforstrawberryrhubarbmuffins {
+font-size: 16px; 
+}
+</style>
+</head>
+<body>
+<img src="print-recipe-book-with-fresh-herbs-and-spices-on-wooden-background-free-photo.jpg">
+<header>
+<h1>Recipes Page</h1>
+</header>
+<ul class="recipes">
+<img src="RoastedRedPepperFetaDip-18.jpg" style="width: 66px; height: 66px;">
+<li><a href="https://thenaturalnurturer.com/creamy-feta-roasted-red-pepper-dip/" id="creamyfeta">Creamy Feta + Roasted Red Pepper Dip</a></li>
+<img src="Red-Pepper-Dip-11.jpg" style="width: 66px; height: 66px;">
+<li><a href="https://www.pbs.org/food/recipes/creamy-feta-roasted-red-pepper-dip" id="pbscreamyfeta">Creamy Feta and Roasted Red Pepper Dip</a></li>
+<img src="Spicy-Roasted-Red-Pepper-Feta-Dip-6-480x270-c.webp" style="width: 66px; height: 66px;">
+<li><a href="https://www.ambitiouskitchen.com/red-pepper-feta-dip/" id="spicyroasted">Spicy Roasted Red Pepper Feta Dip</a></li>
+<img src="Creamy-Roasted-Red-Feta-Pepper-Dip-04.jpg" style="width: 66px; height: 66px;">
+<li><a href="https://carlsbadcravings.com/5-minute-creamy-whipped-roasted-red-pepper-feta-dip-or-spread-recipe/" id="creamywhippeddip">5-Minute Roasted Red Pepper Dip With Feta</a></li>
+<img src="roastedlemonparmesanasparagus.jpeg" style="width: 66px; height: 66px;">
+<li><a href="https://thenaturalnurturer.com/oven-roasted-lemon-parmesan-asparagus/" id="ovenroasted">Oven-Roasted Lemon Parmesan Asparagus</a></li>
+<img src="Baked-Asparagus.jpg" style="width: 66px; height: 66px;">
+<li><a href="https://natashaskitchen.com/baked-asparagus-with-lemon-butter-and-parmesan/" id="bakedasparagus">Roasted Asparagus with Lemon, Butter, and Parmesan</a></li>
+<img src="Lemon-Parmesan-Roasted-Asparagus-3-790x1024.jpg" style="width: 66px; height: 66px;">
+<li><a href="https://sweetbeginningsblog.com/lemon-parmesan-roasted-asparagus/" id="lemonparmesanroastedasparagus">Lemon Parmesan Roasted Asparagus</a></li>
+<img src="Lemon-Garlic-and-Parmesan-Roasted-Asparagus-1-of-1-500x500.jpg" style="width: 66px; height: 66px;">
+<li><a href="https://bakerbynature.com/lemon-garlic-and-parmesan-asparagus/" id="lemongarlicandparmesanasparagus">Lemon Garlic And Parmesan Asparagus</a></li>
+<img src="creamyedamamechickensalad.webp" style="width: 66px; height: 66px;">
+<li><a href="https://thenaturalnurturer.com/creamy-edamame-chicken-salad/" id="creamyedamame">Creamy Edamame Chicken Salad</a></li>
+<img src="edamamechickensalad.webp" style="width: 66px; height: 66px;">
+<li><a href="https://www.pamperedchef.ca/recipe/Main+Dishes/Edamame+Chicken+Salad/990639" id="edamamechickensalad">Edamame Chicken Salad</a></li>
+<img src="Sesame_Chicken_Salad_SD_600.jpg" style="width: 66px; height: 66px;">
+<li><a href="https://bonicellicookingclub.com/spicy-edamame-chicken-salad/"></a></li>
+<img src="HF_Y24_R1026_W29_CA_RC23760-1_Main_low-b31f17c5.avif" style="width: 66px; height: 66px;">
+<li><a href="https://www.hellofresh.ca/recipes/smart-asian-style-chicken-salad-65f1acfdd4f950689014b1b5" id="smartasianstylechickensalad">Smart Asian-Style Chicken Salad
+with Creamy Sriracha Dressing</a></li>
+<img src="BakedPestoOrzowithChicken-18.jpg" style="width: 66px; height: 66px;">
+<li><a href="https://thenaturalnurturer.com/pesto-chicken-orzo-bake-w-spring-veggies/" id="pestochicken">Pesto Chicken Orzo Bake w/ Spinach + Peas</a></li>
+<img src="One-Pan-Pesto-Chicken-Meatballs-and-Orzo-4.webp" style="width: 66px; height: 66px;">
+<li><a href="https://www.ambitiouskitchen.com/chicken-meatball-pesto-orzo/" id="chickenmeatball">One Pan Baked Pesto Orzo with Chicken Meatballs</a></li>
+<img src="Orzo-Chicken-500x500.jpg" style="width: 66px; height: 66px;">
+<li><a href="https://www.beyondthechickencoop.com/creamy-chicken-orzo/" id="creamychickenorzo">Creamy Chicken Orzo</a></li>
+<img src="Creamy-Green-Goddess-Orzo-with-Chicken.webp" style="width: 66px; height: 66px;">
+<li><a href="https://www.wholesomelicious.com/creamy-green-goddess-orzo-with-chicken/" id="creamyorzowithtruechicken">Creamy Green Goddess Orzo with Chicken</a></li>
+<img src="deliciousfeelgoodydeeplyyummystrawberryrhubarbmuffins.webp" style="width: 66px; height: 66px;">
+<li><a href="https://thenaturalnurturer.com/feel-good-strawberry-rhubarb-muffins/" id="muffins">Feel-Good Strawberry Rhubarb Muffins</a></li>
+<img src="Strawberry-Rhubarb-Muffins-LAR-4.jpg" style="width: 66px; height: 66px;">
+<li><a href="https://aylarianne.com/strawberry-rhubarb-muffins/" id="strawberryrhubarbmuffins">Strawberry Rhubarb Muffins</a></li>
+<img src="Strawberry-Rhubarb-Muffins-6-683x1024.jpg.webp" style="width: 66px; height: 66px;">
+<li><a href="https://bake-eat-repeat.com/strawberry-rhubarb-muffins-recipe/" id="staceyrecipe">Stacey's Recipe For Strawberry Rhubarb Muffins</a></li>
+<img src="Strawberry-Rhubarb-Muffins-6.jpg" style="width: 66px; height: 66px;">
+<li><a href="https://myorganizedchaos.net/strawberry-rhubarb-muffins-with-streusel-topping" id="tammisrecipeforstrawberryrhubarbmuffins">Strawberry Rhubarb Muffins With Streusel Topping</a></li>
+</ul>
+<ul class="primary-menu">
+    <li><a href="aboutpageforfromgardentoplate.html">About</a></li>
+    <li><a href="signuppageforfromgardentoplate.html">Signup<a></li>
+    <li><a href="recipespageforfromgardentoplate.html">Recipes</a></li>
+    <li><a href="contactpageforfromgardentoplate.html">Contact</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+</ul>
+</head> 
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<title>Sign Up Page For Zahira's Nature-Related Farm</title>
+<meta charset="UTF-8">
+<style>
+body {
+    background-image: url("garden-greens.jpg");
+    color: #cfceca;
+    background-size: cover; 
+}
+h1 {
+    font-size: 16px; 
+    color: #010101;
+}
+/*footer {
+    background-color: #c1c439; 
+    display: flex; /* added style */
+    /*justify-content: space-around; /* added style */
+    /*width: 24px; 
+    height: 33px; 
+}*/
+.about-1, .signup-1, .recipes-1, .contact-1, .privacy-policy-1 {
+    display: flex;
+    color: #5c4121; 
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 24px;
+    bottom: 0;
+    width: 100%; 
+    left: 0; 
+    background-color: #c1c439; 
+    float: right; 
+    right: 50px;
+    justify-content: space-around; 
+}
+.primary-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black; 
+  overflow: hidden;
+  position: fixed; /* Positions the navbar relative to the viewport */
+  bottom: 0; /* Anchors the navbar to the bottom of the viewport */
+  width: 100%; /* Makes the navbar span the full width */
+}
+.primary-menu li {
+    float: right; 
+    display: inline; 
+}
+.primary-menu li a {
+  display: block;
+  color: #F9F6EE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+label {
+  color: #375A0A; 
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Sign Up Page</h1>
+</header>
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email"><br><br>
+  <label for="pickuplocation">Pickup Location:</label>
+  <input type="text" id="pickuplocation" name="pickuplocation"><br><br>
+  <label for="paymentmethod">Payment Method:</label>
+  <input type="text" id="paymentmethod" name="paymentmethod"><br><br>
+  <label for="check">Check:</label>
+  <input type="text" id="check" name="check"><br><br>
+  <label for="creditcard">Credit Card:</label>
+  <input type="text" id="creditcard" name="creditcard"><br><br>
+</form>
+<ul class="primary-menu">
+    <li><a href="aboutpageforfromgardentoplate.html">About</a></li>
+    <li><a href="signuppageforfromgardentoplate.html">Signup<a></li>
+    <li><a href="recipespageforfromgardentoplate.html">Recipes</a></li>
+    <li><a href="contactpageforfromgardentoplate.html">Contact</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+</ul>
+</body>
+</html>
